@@ -1,0 +1,9 @@
+{
+  "setupTestFrameworkScriptFile": "<rootDir>/test/setup-before-after.js",
+  "moduleFileExtensions": ["js", "json", "jsx", "node"],
+  "testRegex": "/__tests__/.*|\\.(test|spec)\\.(js|jsx)$",
+  "moduleNameMapper": {
+    "^.+\\.(css|scss|sass)$": "<rootDir>/test/styleMock.js",
+    "^.+\\.(png|gif|ttf|eot|svg)$": "<rootDir>/test/fileMock.js"
+  }
+}
